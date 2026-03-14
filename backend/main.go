@@ -1,4 +1,4 @@
-package main
+\package main
 
 import (
 	"encoding/json"
@@ -14,8 +14,8 @@ import (
 var smtpConfig = smtp.SMTPConfig{
 	Host:     "smtp.gmail.com",
 	Port:     "587",
-	Username: "monidipd02@gmail.com",
-	Password: "kynerzfcuphjaroh",
+	Username: "",
+	Password: "",
 }
 
 func sendEmails(w http.ResponseWriter, r *http.Request) {
