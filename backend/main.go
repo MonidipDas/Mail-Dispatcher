@@ -15,7 +15,7 @@ var smtpConfig = smtp.SMTPConfig{
 	Host:     "smtp.gmail.com",
 	Port:     "587",
 	Username: "monidipd02@gmail.com",
-	Password: "kynerzfcuphjaroh",
+	Password: "oszqytajpsjrvtlq",
 }
 
 func sendEmails(w http.ResponseWriter, r *http.Request) {
